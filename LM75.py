@@ -21,12 +21,12 @@ class LM75(object):
     def get_temp(self):
         """Return a tuple of (temp_c, point)."""
         temp = self.get_output()
-        return int(temp[0]), int(temp[1])
+        return int(temp[0]), floor(int(temp[1]) / 23)
 
 
 def print_temp():
     sensor = LM75()
     while True:
         temperature, point = sensor.get_temp()
-        print("%s.%s" % (temperature, floor(point / 23)))
+        print("%s.%s" % (temperature, point))
         sleep(1)
