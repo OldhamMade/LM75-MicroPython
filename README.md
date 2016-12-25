@@ -2,6 +2,6 @@
 
 ## Wiring
 
-[Wiring Diagram][wiring]
+![Wiring Diagram][wiring]
 
 [wiring]: https://github.com/OldhamMade/LM75-MicroPython/raw/master/wiring.png
