@@ -1,1 +1,1 @@
-# NodeMCU EC-12, LM75 Temperature sensor, and MicroPython
+# NodeMCU ESP-12, LM75 Temperature sensor, and MicroPython #
