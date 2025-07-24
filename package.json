@@ -1,0 +1,7 @@
+{
+  "urls": [
+    ["LM75.py", "github:OldhamMade/LM75-MicroPython/LM75.py"]
+  ],
+  "version": "1.0.0",
+  "deps": []
+}
